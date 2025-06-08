@@ -4,5 +4,10 @@ function calculateBodaFare() {
     const chargePerKm = 15; // Fare per kilometer in shillings
     const totalFare = baseFare + (chargePerKm * distanceInKm);
 
-    console.log(`Total estimated boda boda fare for ${distanceInKm} km is KES ${totalFare}.`);
+    console.log(`\nBoda Boda Fare Calculator`);
+    console.log(`Distance: ${distanceInKm} km`);
+    console.log(`Base Fare: KES ${baseFare}`);
+    console.log(`Distance Charge: KES ${chargePerKm * distanceInKm}`);
+    console.log(`Total Estimated Fare: KES ${totalFare}`);
+    console.log('\nHave a safe ride!');
 }
