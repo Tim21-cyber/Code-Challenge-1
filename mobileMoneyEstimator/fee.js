@@ -20,4 +20,4 @@ function estimateTransactionFee() {
 }
 
 // Call the function to execute the fee estimation
-estimateTransactionFee();
+estimateTransactionFee(console.log);

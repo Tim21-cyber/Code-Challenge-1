@@ -9,4 +9,4 @@ function calculateBodaFare() {
 }
 
     // Call the callback function with the total fare
-    calculateBodaFare();
+    calculateBodaFare(console.log);

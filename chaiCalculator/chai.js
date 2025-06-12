@@ -1,4 +1,4 @@
-function calculateChaiIngredients(callback) {
+function calculateChaiIngredients() {
   const numberOfCups = Number(prompt("Enter the number of chai cups you want to make:"));
 
   const water = 200 * numberOfCups; // in ml
@@ -15,4 +15,4 @@ function calculateChaiIngredients(callback) {
 }
 
 // Call the function to execute the chai ingredient calculation
-calculateChaiIngredients();
+calculateChaiIngredients(console.log);
