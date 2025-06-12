@@ -14,10 +14,10 @@ function estimateTransactionFee() {
 
     const totalAmount = amountToSend + transactionFee;
 
-    console.log(`\nMobile Money Transaction Estimator`);
-    console.log(`Amount to Send: KES ${amountToSend.toFixed(2)}`);
-    console.log(`Transaction Fee (1.5%): KES ${transactionFee.toFixed(2)}`);
+    console.log(`Transaction Fee: KES ${transactionFee.toFixed(2)}`);
     console.log(`Total Amount Debited: KES ${totalAmount.toFixed(2)}`);
-    console.log('\nThank you for using our service!');
 
 }
+
+// Call the function to execute the fee estimation
+estimateTransactionFee();
